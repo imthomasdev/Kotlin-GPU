@@ -25,7 +25,7 @@ fun main() {
     when (pergunta?.lowercase()) {
         "amd" -> {
             println("Show sua placa de video é da AMD, agora digite o modelo da sua placa")
-            println("So temos informações no momento até a RX 6600")
+            println("temos informações no momento até a RX 6600")
             val questAMD = readlnOrNull()
             when (questAMD?.lowercase()) {
                 "rx 7900 xtx" -> println("A RX 7900 XTX Tem 79.95 de Desempenho e 355W de TDP")
