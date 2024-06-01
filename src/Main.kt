@@ -19,9 +19,12 @@ fun main() {
                 "rtx 3080" -> println("A RTX 3080 tem 65.41 de Desempenho e 320W de TDP")
                 "rtx 3070" -> println("a RTX 3070 Tem 57.91 de Desempenho e 220W de TDP")
                 "rtx 3060" -> println("a RTX 3060 Tem 44.16 de Desempenho e 170W de TDP")
+                 else -> println("Algo deu errado, tente novamente!")
             }
         }
+
     }
+
     when (pergunta?.lowercase()) {
         "amd" -> {
             println("Show sua placa de video é da AMD, agora digite o modelo da sua placa")
@@ -49,6 +52,6 @@ fun main() {
                     println("Algo deu errado, tente novamente!")
                 }
             }
-        } else -> println("Algo deu errado, tente novamente!")
+        }
     }
 }
